@@ -85,7 +85,7 @@ describe('使用 TestScheduler 測試', () => {
 
       expectObservable(source$).toBe(expectedResult);
       expectSubscriptions(sourceObservable.subscriptions).toBe(expectedSubscription);
-    })
+    });
   });
 
   test('測試時間 time frame', () => {
